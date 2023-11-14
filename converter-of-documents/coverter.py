@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 from docx import Document
 
-def pdf_to_text(pdf_path):
+def pdf_to_text(pdf_path):#this is for pdf convertion
     doc = fitz.open(pdf_path)
     text = ""
     for page_num in range(doc.page_count):
