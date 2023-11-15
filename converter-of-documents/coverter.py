@@ -9,7 +9,7 @@ def pdf_to_text(pdf_path):#this is for pdf convertion
         text += page.get_text()
     return text
 
-def text_to_word(text, output_path):
+def text_to_word(text, output_path):#getting text from pdf
     doc = Document()
     doc.add_paragraph(text)
 
