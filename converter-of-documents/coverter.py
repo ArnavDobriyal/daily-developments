@@ -9,13 +9,13 @@ def pdf_to_text(pdf_path):#this is for pdf convertion
         text += page.get_text()
     return text
 
-def text_to_word(text, output_path):#getting text from pdf
+def text_to_word(text, output_path):#getting text from pdf 
     doc = Document()
     doc.add_paragraph(text)
 
     doc.save(output_path)
 
-if __name__ == "__main__":
+if __name__ == "__main__":#main function
     pdf_path = "resume.pdf"
     output_path = "resume.docx"
 
