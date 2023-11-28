@@ -7,7 +7,6 @@ From downloading YouTube videos to automating repetitive tasks, you'll find a va
 
 - [Features](#features)
 - [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
 
 ## Features
 
